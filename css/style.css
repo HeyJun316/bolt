@@ -1,0 +1,246 @@
+body {
+  font-family: "Lato", "Raleway";
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+li {
+  list-style: none;
+}
+
+.inner {
+  width: 1100px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* フォント */
+.title {
+  font-size: 24px;
+}
+
+.is_raleway {
+  font-family: Raleway;
+}
+
+.font0 {
+  font-size: 0;
+}
+/* 色系 */
+.bgc_white {
+  background-color: #fff;
+}
+
+.bgc_green {
+  background-color: #74cfae;
+}
+
+.bgc_dark {
+  background-color: #4e4e4e;
+}
+
+.font_green {
+  color: #74cfae;
+}
+
+.font_grey {
+  color: #f2f2f2;
+}
+
+.font_dark {
+  color: #4e4e4e;
+}
+
+.theme__text_color {
+  color: #c0c0c0;
+}
+
+/* 配置 */
+.flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.margin_center {
+  margin: 0 auto;
+}
+
+/* 使用時に::after忘れずに */
+.clearfix {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/* まとめ */
+.text_style {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.btn {
+  border: 1px solid transparent;
+  color: #fff;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  color: #333;
+  transition: 0.3s;
+}
+
+/* header */
+.header {
+  width: 100%;
+  position: fixed;
+}
+
+.haeder__inner {
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.header__btn {
+  padding: 14px 12px;
+}
+
+.header__left {
+  margin-right: auto;
+}
+
+.fa-bolt {
+  font-size: 30px;
+}
+
+.header__right {
+  margin-left: auto;
+}
+
+/* bolt Theme */
+main {
+  padding-top: 70px;
+}
+
+.theme__inner {
+  padding: 250px 0;
+}
+
+.theme__heading {
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.theme__text {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+/* WHAT WE CAN DO? */
+.iphone__inner {
+  padding-top: 50px;
+  justify-content: space-around;
+}
+
+.iphone__desc_text {
+  padding-top: 30px;
+  width: 690px;
+}
+
+/* OUR LATEST WORK */
+
+.work__inner {
+  padding: 60px 0 70px;
+}
+
+.work__imges {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0 90px;
+}
+
+.work__img {
+  margin-left: 100px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.work__img:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.work__img:nth-child(3n + 1) {
+  margin-left: 0;
+}
+
+.work__img:nth-child(n + 4) {
+  margin-top: 80px;
+}
+/* OUR LATEST--Ques  */
+.work__contact_left {
+  width: 615px;
+}
+
+.work__contact_right {
+  padding-left: 90px;
+}
+
+.work__contact_btn {
+  padding: 14px 20px;
+}
+/* ???? */
+
+/* Skills */
+
+.skills__inner {
+  padding: 70px 0 100px;
+}
+
+.skills__img{
+  margin-left: 180px;
+  padding-top: 70px;
+}
+.skills__img_text {
+  padding-top: 20px;
+}
+.skills__img:first-child {
+  margin-left: 0;
+}
+
+/* SNS */
+.sns__inner {
+  padding: 200px 0;
+}
+
+.sns__item {
+  width: 185px;
+  font-size: 50px;
+  padding: 20px 15px;
+  color: #74cfae;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+.sns__item:hover {
+  background-color: #fff;
+  transition: 0.3s;
+}
+/* footer */
+.sns {
+  width: 100%;
+}
+.footer__inner {
+  padding: 20px 0 25px 0;
+}
+.footer__text {
+  text-align: right;
+}

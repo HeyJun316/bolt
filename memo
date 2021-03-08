@@ -1,0 +1,39 @@
+
+
+<div class="work__contact flex text_center">
+  <div class="work__contact_left">
+    <p class="work__contact_text text_style font_dark">
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+    industry's standard dummy text ever.
+    </p>
+  </div>
+  <div class="work__contact_right">
+    <a href="#" class="work__contact_btn btn bgc_green">
+    Email Me!
+    </a>
+  </div>
+</div>
+
+
+.work__contact_left {
+  width: 615px;
+}
+
+.work__contact_right {
+  padding-left: 90px;
+}
+
+
+=====================
+これでpadding-bottom:  90pxとるか
+
+.work__imges {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0 90px;
+}
+
+.work__contact_container {
+  margin-top: 90px;
+}
+どっちがいいの？

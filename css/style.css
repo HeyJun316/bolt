@@ -102,6 +102,7 @@ a {
 .header {
   width: 100%;
   position: fixed;
+  z-index: 100;
 }
 
 .haeder__inner {
@@ -164,7 +165,7 @@ main {
 .work__imges {
   display: flex;
   flex-wrap: wrap;
-  padding: 40px 0 90px;
+  padding-top: 40px;
 }
 
 .work__img {
@@ -185,19 +186,18 @@ main {
 .work__img:nth-child(n + 4) {
   margin-top: 80px;
 }
-/* OUR LATEST--Ques  */
-.work__contact_left {
-  width: 615px;
+/* OUR LATEST--Ques ↓↓↓ */
+.work__contact_container {
+  margin-top: 90px;
 }
-
-.work__contact_right {
-  padding-left: 90px;
+.work__contact_text {
+  width: 610px;
 }
-
 .work__contact_btn {
   padding: 14px 20px;
+  margin-left: 90px;
 }
-/* ???? */
+/*OUR LATEST--Ques ↑↑↑ */
 
 /* Skills */
 
@@ -240,6 +240,7 @@ main {
 }
 .footer__inner {
   padding: 20px 0 25px 0;
+  margin: 0 auto;
 }
 .footer__text {
   text-align: right;

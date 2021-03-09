@@ -62,11 +62,14 @@ img {
 }
 
 /* 配置 */
-.flex {
+.flex_center {
   align-items: center;
   display: flex;
   justify-content: center;
+}
 
+.just_flex {
+  display: flex;
 }
 
 .text_center {
@@ -170,22 +173,24 @@ main {
   margin-top: 40px;
 }
 
-.work__img {
+.work__imges li{
   margin-left: 100px;
+}
+
+.work__imges li a {
   opacity: 0.7;
   transition: all 0.3s;
 }
-
-.work__img:hover {
+  .work__imges li a:hover {
   opacity: 1;
 }
 
-.work__img:nth-child(3n + 1),
-.skills__img:first-child {
+.work__imges li:nth-child(3n + 1),
+.skills__imges li:first-child {
   margin-left: 0;
 }
 
-.work__img:nth-child(n + 4) {
+.work__imges li:nth-child(n + 4) {
   margin-top: 80px;
 }
 
@@ -214,12 +219,11 @@ main {
   margin-top: 70px;
 }
 
-.skills__img{
+.skills__imges li {
   margin-left: 180px;
-  /* margin-top: 70px; */
 }
 
-.skills__img_text {
+.skills__imges li p {
   margin-top: 20px;
 }
 
@@ -228,7 +232,7 @@ main {
   padding: 200px 0;
 }
 
-.sns__item {
+.sns__inner li a {
   width: 185px;
   font-size: 50px;
   padding: 20px 15px;
@@ -237,7 +241,7 @@ main {
   transition: all 0.3s;
 }
 
-.sns__item:hover {
+.sns__inner li a:hover {
   background-color: #fff;
 }
 

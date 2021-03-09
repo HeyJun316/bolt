@@ -5,22 +5,20 @@ body {
 
 }
 
-li {
-  list-style: none;
-}
-
 .inner {
   width: 1100px;
-  max-width: 100%;
+  margin: 0 auto;
 }
 
 a {
   display: inline-block;
   text-decoration: none;
 }
+
 img {
   vertical-align: bottom;
 }
+
 /* フォント */
 .title {
   font-size: 24px;
@@ -33,6 +31,7 @@ img {
 .font0 {
   font-size: 0;
 }
+
 /* 色系 */
 .bgc_white {
   background-color: #fff;
@@ -66,14 +65,12 @@ img {
 .flex {
   align-items: center;
   display: flex;
+  justify-content: center;
+
 }
 
 .text_center {
   text-align: center;
-}
-
-.margin_center {
-  margin: 0 auto;
 }
 
 /* 使用時に::after忘れずに */
@@ -93,12 +90,11 @@ img {
   border: 1px solid transparent;
   color: #fff;
   font-size: 12px;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 .btn:hover {
   color: #333;
-  transition: 0.3s;
 }
 
 /* header */
@@ -111,7 +107,6 @@ img {
 }
 
 .haeder__inner {
-  margin: 0 auto;
   padding: 15px 0;
   justify-content: space-between;
 }
@@ -178,29 +173,31 @@ main {
 .work__img {
   margin-left: 100px;
   opacity: 0.7;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 .work__img:hover {
   opacity: 1;
-  transition: 0.3s;
 }
 
-.work__img:nth-child(3n + 1) {
+.work__img:nth-child(3n + 1),
+.skills__img:first-child {
   margin-left: 0;
 }
 
 .work__img:nth-child(n + 4) {
   margin-top: 80px;
 }
+
 /* OUR LATEST--Ques ↓↓↓ */
 .work__contact_container {
   margin-top: 90px;
-  justify-content: center;
 }
+
 .work__contact_text {
   width: 610px;
 }
+
 .work__contact_btn {
   padding: 14px 20px;
   margin-left: 90px;
@@ -212,8 +209,8 @@ main {
 .skills__inner {
   padding: 70px 0 100px;
 }
+
 .skills__imges {
-  justify-content: center;
   margin-top: 70px;
 }
 
@@ -221,17 +218,14 @@ main {
   margin-left: 180px;
   /* margin-top: 70px; */
 }
+
 .skills__img_text {
   margin-top: 20px;
-}
-.skills__img:first-child {
-  margin-left: 0;
 }
 
 /* SNS */
 .sns__inner {
   padding: 200px 0;
-  justify-content: center;
 }
 
 .sns__item {
@@ -239,23 +233,19 @@ main {
   font-size: 50px;
   padding: 20px 15px;
   color: #74cfae;
-  transition: 0.3s;
   box-sizing: border-box;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 .sns__item:hover {
   background-color: #fff;
-  transition: 0.3s;
 }
+
 /* footer */
-.sns {
-  width: 100%;
-}
 .footer__inner {
   padding: 20px 0 25px 0;
-  margin: 0 auto;
 }
+
 .footer__text {
   text-align: right;
 }
@@ -263,13 +253,7 @@ main {
 /* 1199px ~ 768px
 --------------------- */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-.header__right {
-  /* margin-right: 30px; */
-}
-.header__left {
-  /* margin-left: 30px; */
 
-}
 .inner {
   width: 90%;
 }

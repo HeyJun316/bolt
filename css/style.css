@@ -106,7 +106,8 @@ img {
   width: 100%;
   position: fixed;
   z-index: 100;
-
+  top: 0;
+  left: 0;
 }
 
 .haeder__inner {
@@ -123,7 +124,7 @@ img {
   margin-right: auto;
 }
 
-.fa-bolt {
+.icon_size {
   font-size: 30px;
 }
 
@@ -213,14 +214,15 @@ main {
 }
 .skills__imges {
   justify-content: center;
+  margin-top: 70px;
 }
 
 .skills__img{
   margin-left: 180px;
-  margin-top: 70px;
+  /* margin-top: 70px; */
 }
 .skills__img_text {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .skills__img:first-child {
   margin-left: 0;
@@ -229,8 +231,6 @@ main {
 /* SNS */
 .sns__inner {
   padding: 200px 0;
-}
-.sns__items {
   justify-content: center;
 }
 
@@ -241,6 +241,7 @@ main {
   color: #74cfae;
   transition: 0.3s;
   box-sizing: border-box;
+  transition: 0.3s;
 }
 
 .sns__item:hover {

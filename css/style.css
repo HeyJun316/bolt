@@ -183,6 +183,7 @@ main {
   opacity: 0.7;
   transition: all 0.3s;
 }
+
 .work__imges li a:hover {
   opacity: 1;
 }
@@ -262,16 +263,20 @@ main {
   .inner {
     width: 97%;
   }
+
   /* iphone */
   .iphone__inner {
     display: block;
   }
+
   .iphone__inner {
     padding-bottom: 25px;
   }
+
   .iphone__desc {
     margin-top: 20px;
   }
+
   .iphone__desc_text {
     width: 100%;
     margin-top: 35px;
@@ -289,6 +294,10 @@ main {
 
   .work__imges li:nth-child(3n + 1) {
     margin-top: 80px;
+  }
+
+  .work__imges li:first-child {
+    margin-top: 0;
   }
 
   .work__imges li {
@@ -309,13 +318,16 @@ main {
   .work__contact_btn {
     margin: 40px 0 0;
   }
+
   /* skill */
   .skills__imges {
     display: block;
   }
+
   .skills__imges li {
     margin: 88px 0 0;
   }
+
   .skills__imges li:first-child {
     margin-top: 0;
   }
@@ -327,6 +339,7 @@ main {
   .inner {
     width: 97%;
   }
+
   /* header */
   .icon_size {
     font-size: 50px;
@@ -345,6 +358,7 @@ main {
     height: 15px;
     width: 25px;
   }
+
   .ham__line {
     position: absolute;
     left: 11px;
@@ -357,6 +371,7 @@ main {
   .ham__line1 {
     top: 10px;
   }
+
   .ham__line2 {
     top: 16px;
 
@@ -374,16 +389,20 @@ main {
   .theme__heading {
     font-size: 80px;
   }
+
   /* iphone */
   .iphone__inner {
     display: block;
   }
+
   .iphone__inner {
     padding-bottom: 25px;
   }
+
   .iphone__desc {
     margin-top: 20px;
   }
+
   .iphone__desc_text {
     width: 100%;
     margin-top: 35px;
@@ -425,6 +444,7 @@ main {
   .skills__imges {
     display: block;
   }
+
   .skills__imges li {
     margin: 80px 0 0;
   }
@@ -433,6 +453,7 @@ main {
     display: block;
     padding: 50px 0;
   }
+
   .sns__inner li a {
     width: 100%
   }

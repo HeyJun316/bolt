@@ -422,6 +422,10 @@ main {
     margin-top: 80px;
   }
 
+  .work__imges li:first-child {
+    margin-top: 0;
+  }
+
   .work__imges li {
     margin-left: 0;
   }

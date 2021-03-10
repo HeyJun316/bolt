@@ -2,7 +2,6 @@ body {
   font-family: "Lato", "Raleway";
   color: #333;
   background-color: #f2f2f2;
-
 }
 
 .inner {
@@ -130,6 +129,10 @@ img {
   margin-left: auto;
 }
 
+.ham {
+  display: none;
+}
+
 /* bolt Theme */
 main {
   padding-top: 70px;
@@ -172,7 +175,7 @@ main {
   margin-top: 40px;
 }
 
-.work__imges li{
+.work__imges li {
   margin-left: 100px;
 }
 
@@ -180,7 +183,7 @@ main {
   opacity: 0.7;
   transition: all 0.3s;
 }
-  .work__imges li a:hover {
+.work__imges li a:hover {
   opacity: 1;
 }
 
@@ -256,14 +259,178 @@ main {
 /* 1199px ~ 768px
 --------------------- */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .inner {
+    width: 97%;
+  }
+  /* iphone */
+  .iphone__inner {
+    display: block;
+  }
+  .iphone__inner {
+    padding-bottom: 25px;
+  }
+  .iphone__desc {
+    margin-top: 20px;
+  }
+  .iphone__desc_text {
+    width: 100%;
+    margin-top: 35px;
+  }
 
-.inner {
-  width: 90%;
-}
+  /* our */
+  .work__imges {
+    display: block;
+    text-align: center;
+  }
 
+  .work__imges li:nth-child(n + 4) {
+    margin-top: 0;
+  }
+
+  .work__imges li:nth-child(3n + 1) {
+    margin-top: 80px;
+  }
+
+  .work__imges li {
+    margin-left: 0;
+  }
+
+  .work__contact_container {
+    margin-top: 80px;
+    display: block;
+    text-align: center;
+  }
+
+  .work__contact_text {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .work__contact_btn {
+    margin: 40px 0 0;
+  }
+  /* skill */
+  .skills__imges {
+    display: block;
+  }
+  .skills__imges li {
+    margin: 88px 0 0;
+  }
+  .skills__imges li:first-child {
+    margin-top: 0;
+  }
 }
 /* 767px ~ 0px
 ---------------------*/
 @media screen and (max-width: 767px) {
 
+  .inner {
+    width: 97%;
+  }
+  /* header */
+  .icon_size {
+    font-size: 50px;
+  }
+
+  .header__btn {
+    display: none;
+  }
+
+  .ham {
+    display: block;
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    height: 15px;
+    width: 25px;
+  }
+  .ham__line {
+    position: absolute;
+    left: 11px;
+    top: 5px;
+    height: 3px;
+    width: 25px;
+    background-color: #ddd;
+  }
+
+  .ham__line1 {
+    top: 10px;
+  }
+  .ham__line2 {
+    top: 16px;
+
+  }
+  .ham__line3 {
+    top: 22px;
+
+  }
+
+  /* theme */
+  .theme__inner {
+    padding: 160px 0 130px;
+  }
+
+  .theme__heading {
+    font-size: 80px;
+  }
+  /* iphone */
+  .iphone__inner {
+    display: block;
+  }
+  .iphone__inner {
+    padding-bottom: 25px;
+  }
+  .iphone__desc {
+    margin-top: 20px;
+  }
+  .iphone__desc_text {
+    width: 100%;
+    margin-top: 35px;
+  }
+
+  /* our */
+  .work__imges {
+    display: block;
+    text-align: center;
+  }
+
+  .work__imges li:nth-child(n + 4) {
+    margin-top: 0;
+  }
+
+  .work__imges li:nth-child(3n + 1) {
+    margin-top: 80px;
+  }
+
+  .work__imges li {
+    margin-left: 0;
+  }
+
+  .work__contact_container {
+    margin-top: 80px;
+    display: block;
+    text-align: center;
+  }
+
+  .work__contact_text {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .work__contact_btn {
+    margin: 40px 0 0;
+  }
+  /* skill */
+  .skills__imges {
+    display: block;
+  }
+  .skills__imges li {
+    margin: 80px 0 0;
+  }
+
+  .sns__inner {
+    display: block;
+    padding: 50px 0;
+  }
 }
